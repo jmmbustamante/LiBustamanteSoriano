@@ -1,4 +1,4 @@
-PSHS Computer Science 3 Quarter 1 Project Proposal
+PSHS Computer Science 3 Quarter 1 Project Proposal\
 Students : Tim Soriano , Josef Bustamante
 
 # BoardBlitz
