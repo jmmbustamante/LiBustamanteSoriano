@@ -14,6 +14,6 @@ The webpage will contain the following:
   5. Custom Keyboard 1 - This webpage will consist of the keyboard's details, while also being in a low budget price range.
   6. Custom Keyboard 2 - This webpage will consist of the keyboard's details, while also being in a average price range.
   7. Custom Keyboard 3 - This webpage will consist of the keyboard's details, while also being in an expensive price range.
-  8. References - This webpage will consists of references used to obtain information gathered about the keyboards.
+  8. References - This webpage will consist of references used to obtain information gathered about the keyboards.
 
 Wireframe Link: https://wireframe.cc/pro/pp/aa8c1345b581441
