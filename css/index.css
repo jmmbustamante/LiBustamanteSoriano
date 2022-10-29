@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+body {
+  font-family: 'Quicksand';
+  background-color: lightgray;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #76DE94;
+  padding: 20px 10px;
+  border: 2px solid black;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ADDEBB;
+  color: black;
+}
+
+.header-right {
+  float: right;
+}
+
+.column1, .column2 {
+  height: 68.8vh;
+  overflow: hidden;
+  float: left;
+  width: 49%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-top: 20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  font-size: 40px;
+  background-color: #76DE94;
+}
+
+.column1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 2px solid black;
+  margin-left:1%;
+  text-align:center;
+}
+
+.column2 {
+  border-right: 2px solid black;
+  margin-right:1%;
+  padding-left:1.5%;
+}
+
+span {
+  font-weight: bold;
+}
+
+div.column2 > p.creators {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right:10px;
+  padding-top: 2%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img.resize {
+    width:95%;
+    height: auto;
+}
+
+.columnkb1, .columnkb2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  width: 48.5%;
+  height: 20vh;
+  background-color: #76DE94;
+  border:2px solid black;
+  margin-top: 20px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.columnkb1 {
+  margin-right: 0.8%;
+  margin-left:0.7%;
+}
+
+.columnkb2 {
+  margin-right: 0.7%;
+  margin-left:0.8%;
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row3 div , .row2 div{
+  overflow: hidden;
+}
+
+.columnkb_1, .columnkb_2 {
+  float: left;
+  overflow: hidden;
+  width: 45%;
+  height: 30vh;
+  background-color: gray;
+  margin-top: 15px;
+  margin-right: 2.5%;
+  margin-left:2.5%;
+  font-size: 15px;
+  text-align: center;
+  border: 15px;
+}
+
+.p1 , .p2 {
+  height: 68.8vh;
+  overflow: hidden;
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+
+div > img.columnkb {
+  float: left;
+  width: 95%;
+  height: auto;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left:20px;
+  padding-bottom:45px;
+}
+
+.p2 {
+  padding-right: 15px;  
+}
+
+div.p2 > p.kbheader {
+  font-size: 26px;
+  color: black; 
+  text-decoration: none;
+}
+
+div.p2 > p.content {
+  font-size: 15px;
+  color: black;
+}
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
